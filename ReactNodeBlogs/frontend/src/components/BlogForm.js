@@ -43,7 +43,7 @@ const BlogForm = ({ onSave, editingPost }) => {
       }}
     >
       <Typography variant="h5" color="primary" gutterBottom>
-        {editingPost ? 'Edit Blog Post' : 'Create a New Blog Post'}
+        {editingPost ? 'Edit Blogs Post' : 'Create a New Blog Post'}
       </Typography>
 
       <Box component="form" onSubmit={handleSubmit} noValidate autoComplete="off">
